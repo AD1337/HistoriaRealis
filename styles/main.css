@@ -48,6 +48,13 @@ body{margin:0;background:url(../images/007.jpg) no-repeat fixed #000000;backgrou
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+@media screen and (max-width: 992px) {
+    #parallax {
+        background-attachment: scroll;
+    }
+}
+
 font-family:'Arial', sans-serif;font-size:16px}small{padding-bottom:1em}.row{width:100%;margin:3em 0;border-collapse: collapse}
 .row:after{clear:both}
 
