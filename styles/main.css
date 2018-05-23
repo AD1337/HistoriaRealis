@@ -51,11 +51,16 @@ background-attachment: fixed;
   -o-background-size: contain;
   background-size: cover;
  background-repeat: no-repeat;
-box-sizing: content-box;
+
+}
 
 
 }
 
+html {
+height: 100vh; /* set viewport constraint */
+min-height: 100%; /* enforce height */
+}
 
 .background-div {
 position: absolute;
