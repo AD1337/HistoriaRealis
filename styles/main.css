@@ -47,7 +47,7 @@ body{margin:0;background:url(../images/007.jpg) fixed #000000;background-positio
 background-attachment: fixed;
 
 -webkit-background-size: contain;
-  -moz-background-size: cover;
+  -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
  background-repeat: no-repeat;
