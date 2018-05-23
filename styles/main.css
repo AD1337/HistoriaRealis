@@ -3,10 +3,28 @@ p,small a{color:#ff0537}.buy-on-steam,.buy-on-steam:hover,small a{text-decoratio
 .column-right{ float: right; width: 33%; }
 .column-center{ display: inline-block; width: 33%; }
 
+.table {
+width: 100%;
+border-collapse: collapse;
+border: 1px solid white;
+}
+
+#table, td, th {
+
+
+	  height: 50px;
+	width:50%;
+	padding-top: 15px;
+	padding-left:10px;
+	padding-right:10px;
+    text-align: left;
+
+}
+
 .video-container {
 	position:relative;
-	padding-bottom:56.25%;
-	padding-top:30px;
+	padding-bottom:0px;
+	padding-top:0px;
 	height:0;
 	overflow:hidden;
 }
@@ -26,11 +44,11 @@ p,small a{color:#ff0537}.buy-on-steam,.buy-on-steam:hover,small a{text-decoratio
 p,small a{color:#7c9aae}.col-4:after,.col-4:before,.row:after,.row:before{content:'';display:table}.buy-on-steam,.buy-on-steam:hover,small a{text-decoration:none}.col-4,.content,
 .header{text-align:center}
 body{margin:0;background:url(../images/007.jpg) no-repeat fixed #000000;background-size:cover;background-position: top center;
-font-family:'Arial', sans-serif;font-size:16px}small{padding-bottom:1em}.row{width:100%;margin:3em 0}
+font-family:'Arial', sans-serif;font-size:16px}small{padding-bottom:1em}.row{width:100%;margin:3em 0;border-collapse: collapse}
 .row:after{clear:both}
 
 .col-4{float:left;clear:none;width:40%;margin-left:5%;margin-right:5%}.col-4 p span,
-.col-2{float:left;clear:none;width:49%;margin-left:0%;margin-right:0%;border:1px solid rgba(100, 100, 60, .5)}.col-4 p span,
+.col-2{float:left;clear:none;width:49%;margin-left:0%;margin-right:0%;border:1px solid rgba(100, 100, 60, .5); border-collapse: collapse}.col-4 p span,
 .col-3{float:left;clear:none;width:23%;margin-left:5%;margin-right:5%}.col-4 p span,
 .empty:after{clear:both}
 .content .screenshots img{width:100%},.header img{display:block}.col-4:after{clear:both}.col-4:last-child{margin-right:10px}.col-4 img{margin:0 auto}.col-4 p{margin:0em auto; margin-left:1em; margin-right:1em}
@@ -94,13 +112,13 @@ p.bigred {
     
 	font-size: 18px;
 	color:#f44250;
-	margin-top:5px;
+	margin-top:30px;
 }
 
 p.normal {
     
 	font-size: 16px;
-	color:white;
+	color:#ceccca;
 	margin-top:5px;
 }
 
