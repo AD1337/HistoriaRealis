@@ -89,9 +89,12 @@ font-family:'Arial', sans-serif;font-size:16px}small{padding-bottom:1em}.row{wid
 
 .col-4{float:left;clear:none;width:40%;margin-left:5%;margin-right:5%}.col-4 p span,
 .col-2{float:left;clear:none;width:49%;margin-left:0%;margin-right:0%;border:1px solid rgba(100, 100, 60, .5); border-collapse: collapse}.col-4 p span,
-.col-3{float:left;clear:none;width:23%;margin-left:5%;margin-right:5%}.col-4 p span,
+.col-3{float:left;clear:none;width:23%;margin-left:5%;margin-right:5%}.col-3 p span,
 .empty:after{clear:both}
-.content .screenshots img{width:100%},.header img{display:block}.col-4:after{clear:both}.col-4:last-child{margin-right:10px}.col-4 img{margin:0 auto}.col-4 p{margin:0em auto; margin-left:1em; margin-right:1em}
+.content .screenshots img{width:100%},.header img{display:block}
+.col-4:after{clear:both}.col-4:last-child{margin-right:10px}.col-4 img{margin:0 auto}.col-4 p{margin:0em auto; margin-left:1em; margin-right:1em}
+.col-3:after{clear:both}.col-3:last-child{margin-right:10px}.col-3 img{margin:0 auto}.col-3 p{margin:0em auto; margin-left:1em; margin-right:1em}
+
 .col-4 p span{font-size:4em;font-family: 'Arial', sans-serif; color:white;  letter-spacing: 3px; margin-bottom:8px; margin:auto}.fit { height:100%; width:auto; }
 .col-3 p span{font-size:4em;font-family: 'Arial', sans-serif; color:white;  letter-spacing: 3px; margin-bottom:8px; margin:auto}.fit { height:100%; width:auto; }
 
@@ -116,7 +119,11 @@ margin-right:10px;float:left}.header img{margin:0 auto}.header .buy-container{pa
 
 {.header{margin-top:0;width:100%}.header iframe{width:100%;float:none}.header 
 .info {margin-top:0em}
-.header .buy-container{margin-top:0;margin-bottom:1em}.content{margin-bottom:0}}@media (max-width:568px){.col-4{float:center;clear:none;text-align:center;width:100%;margin-left:3%;margin-right:0px;margin-bottom:2em}.col-4:after,.col-4:before{content:'';display:table}.col-4:after{clear:both}.col-4:last-child{margin-right:0}}
+.header .buy-container{margin-top:0;margin-bottom:1em}.content{margin-bottom:0}}
+
+@media (max-width:568px){
+	.col-4{float:center;clear:none;text-align:center;width:100%;margin-left:0%;margin-right:0px;margin-bottom:2em}.col-4:after,.col-4:before{content:'';display:table}.col-4:after{clear:both}.col-4:last-child{margin-right:0}
+	.col-3{float:center;clear:none;text-align:center;width:100%;margin-left:3%;margin-right:0px;margin-bottom:2em}.col-3:after,.col-3:before{content:'';display:table}.col-3:after{clear:both}.col-3:last-child{margin-right:0}}
 
 
 #wrap {
