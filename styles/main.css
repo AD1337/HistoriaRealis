@@ -123,7 +123,7 @@ margin-right:10px;float:left}.header img{margin:0 auto}.header .buy-container{pa
 
 @media (max-width:568px){
 	.col-4{float:center;clear:none;text-align:center;width:100%;margin-left:0%;margin-right:0px;margin-bottom:2em}.col-4:after,.col-4:before{content:'';display:table}.col-4:after{clear:both}.col-4:last-child{margin-right:0}
-	.col-3{float:center;clear:none;text-align:center;width:100%;margin-left:3%;margin-right:0px;margin-bottom:2em}.col-3:after,.col-3:before{content:'';display:table}.col-3:after{clear:both}.col-3:last-child{margin-right:0}}
+	.col-3{float:center;clear:none;text-align:center;width:100%;margin-left:0%;margin-right:0px;margin-bottom:2em}.col-3:after,.col-3:before{content:'';display:table}.col-3:after{clear:both}.col-3:last-child{margin-right:0}}
 
 
 #wrap {
